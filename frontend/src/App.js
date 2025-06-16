@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Register from "./Register"; // นำเข้า Register
+import Home from "./Home"; // นำเข้า Home
+import Select from "./Select"; // นำเข้า Select
+import Status from "./Status"; // นำเข้า Status
+import Upload from "./Upload"; // นำเข้า Upload
+import Payment from "./Payment"; // นำเข้า Payment
+import ProfileSetup from "./ProfileSetup"; // นำเข้า ProfileSetup
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <Routes>
+        <Route path="/" element={<Register />} /> {/* หน้าแรก */}
+        <Route path="/home" element={<Home />} /> {/* หน้า Home */}
+        <Route path="/select" element={<Select />} /> {/* หน้า Select */}
+        <Route path="/status" element={<Status />} /> {/* หน้า Status */}
+        <Route path="/upload" element={<Upload />} /> {/* หน้า Upload */}
+        <Route path="/payment" element={<Payment />} /> {/* หน้า Payment */}
+        <Route path="/profile-setup" element={<ProfileSetup />} /> {/* หน้า Profile Setup */}
+      </Routes>
+    </Router>
+  );  
 }
 
 export default App;

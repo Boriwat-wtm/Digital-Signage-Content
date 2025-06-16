@@ -1,4 +1,5 @@
-const reportWebVitals = onPerfEntry => {
+// filepath: c:\Users\pyaks\Digital-Singnage-CMS-main\Digital-Singnage-CMS-main\frontend\src\reportWebVitals.js
+const reportWebVitals = (onPerfEntry) => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
     import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
       getCLS(onPerfEntry);

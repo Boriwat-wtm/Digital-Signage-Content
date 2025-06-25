@@ -1,5 +1,5 @@
 # Digital-Signage-Content
-Product Vision ของ Digital Signage Content Management
+Product Vision ของ Digital Signage Content Management System
 สำหรับสถานบันเทิง ร้านอาหาร ผับ บาร์ และผู้ใช้งานทั่วไป
 ผู้ซึ่งต้องการส่งข้อความหรือรูปภาพขึ้นจอดิจิทัลได้ง่าย รวดเร็ว และควบคุมได้ด้วยตนเอง
 Digital Signage Management System เป็นระบบจัดการจอดิจิทัลผ่านเว็บ

@@ -1,6 +1,6 @@
-# Digital-Signage-Content
+# Digital Signage Content Management System
 
-# ทีม Digital-Signage-Content
+# ทีม Digital Signage Content Management System
 
 ## 👥 Team Members
 - บริวัฒน์ วงค์ต๊ะมา - เคลม - Product Owner

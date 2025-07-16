@@ -1,6 +1,6 @@
 # Digital-Signage-Content
 
-# EduSync - ทีม Digital-Signage-Content
+# ทีม Digital-Signage-Content
 
 ## 👥 Team Members
 - บริวัฒน์ วงค์ต๊ะมา - เคลม - Product Owner
